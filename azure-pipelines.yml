@@ -20,6 +20,5 @@ steps:
     location: 'East Asia'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName "AzurePipeline"'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
